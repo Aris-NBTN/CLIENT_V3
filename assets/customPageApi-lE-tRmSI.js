@@ -1,0 +1,1 @@
+import{V as e}from"./index-BuOBoE3L.js";const o="/v1/custom-page",a=async s=>await e.get(`${o}/masonry/${s}`),r=async s=>await e.post(`${o}/masonry`,s),t=async(s,n)=>await e.put(`${o}/masonry/${s}`,n),c=async s=>await e.delete(`${o}/masonry-slug/${s}`),m={getSingleMasonry:a,addMasonry:r,delMasonry:c,updateMasonry:t};export{m};
