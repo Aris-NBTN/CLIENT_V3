@@ -1,1 +1,0 @@
-import{V as n}from"./index-Bl_pZCeN.js";const e="/v1/provinces",r=async()=>await n.get(`${e}`),o=async s=>await n.get(`${e}/district/${s}`),c=async s=>await n.get(`${e}/ward/${s}`),i={province:r,district:o,ward:c};export{i as p};
